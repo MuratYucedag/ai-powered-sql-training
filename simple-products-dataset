@@ -1,0 +1,275 @@
+Simple Products Dataset
+
+----DML
+----Select
+----Select CategoryName From Categories
+----* All
+----Select * From Categories
+----Insert
+----Insert Into Categories (CategoryName) values ('Test')
+----Select * From Categories
+----Delete
+----Delete From Categories Where CategoryName='Test'
+----Select * From Categories
+----Update
+----Update Categories Set CategoryName='Toys' Where CategoryId=16
+----Select * From Categories
+----Insert Into Categories (CategoryName) Values ('Games')
+----Select * From Categories
+
+----INSERT INTO Products 
+----(ProductName, ProductPrice, ProductStock, ProductDescription, ProductCreatedDate, ProductIsActive, CategoryId)
+----VALUES
+----('Wireless Noise Cancelling Headphones', 199.99, 45, 'High quality wireless headphones with active noise cancellation.', '2026-01-01', 1, 4),
+
+----('Smart Fitness Watch', 149.50, 30, 'Wearable smart watch with heart rate tracking and GPS.', '2026-01-01', 1, 5),
+
+----('Gaming Laptop 15 inch', 1299.00, 12, 'High performance gaming laptop with powerful graphics card.', '2026-01-01', 1, 2),
+
+----('Bluetooth Portable Speaker', 89.90, 60, 'Compact portable speaker with deep bass and long battery life.', '2026-01-01', 1, 4),
+
+----('Men Cotton Hoodie', 59.99, 80, 'Comfortable men hoodie made from premium cotton fabric.', '2026-01-01', 1, 6),
+
+----('Women Summer Dress', 79.99, 50, 'Lightweight summer dress with modern design.', '2026-01-01', 1, 7),
+
+----('Running Shoes Pro', 120.00, 40, 'Professional running shoes designed for long distance.', '2026-01-01', 1, 8),
+
+----('Leather Handbag', 210.75, 20, 'Genuine leather handbag with elegant design.', '2026-01-01', 1, 9),
+
+----('Non Stick Cookware Set', 180.00, 25, 'Complete non-stick cookware set for everyday cooking.', '2026-01-02', 1, 11),
+
+----('Modern Wooden Dining Table', 950.00, 8, 'Solid wood dining table with modern minimalist style.', '2026-01-02', 1, 12),
+
+----('Decorative Wall Clock', 45.99, 70, 'Stylish decorative wall clock for modern homes.', '2026-01-02', 1, 13),
+
+----('Vacuum Cleaner Turbo Max', 299.99, 15, 'High suction power vacuum cleaner for deep cleaning.', '2026-01-02', 1, 14),
+
+----('Organic Skin Care Set', 110.00, 35, 'Natural and organic skin care products for daily use.', '2026-01-02', 1, 15),
+
+----('Educational Wooden Toy Set', 65.00, 40, 'Wooden toy set designed to improve children creativity.', '2026-01-02', 1, 16),
+
+----('Premium Notebook Pack', 25.50, 100, 'Set of premium quality notebooks for office and school.', '2026-01-02', 1, 17),
+
+----('Camping Tent 4 Person', 320.00, 10, 'Waterproof camping tent suitable for four people.', '2026-01-02', 1, 18),
+
+----('Pet Grooming Kit', 55.00, 55, 'Complete grooming kit for dogs and cats.', '2026-01-02', 1, 19),
+
+----('Car Phone Holder Magnetic', 19.99, 120, 'Magnetic phone holder for safe driving.', '2026-01-02', 1, 20),
+
+----('Mechanical Gaming Keyboard', 135.00, 22, 'RGB mechanical keyboard designed for gamers.', '2026-01-01', 1, 22),
+
+----('Tablet Stand Adjustable', 29.99, 75, 'Adjustable tablet stand suitable for desk usage.', '2026-01-01', 1, 3);
+-----------------------------------------------------
+
+----INSERT INTO Products
+----(ProductName, ProductPrice, ProductStock, ProductDescription, ProductCreatedDate, ProductIsActive, CategoryId)
+----VALUES
+----('Classic Cotton T-Shirt', 24.99, 120, 'Basic cotton t-shirt designed for everyday comfort.', '2026-01-01', 1, 6),
+
+----('Slim Fit Denim Jeans', 79.90, 60, 'Slim fit jeans made from durable denim fabric.', '2026-01-01', 1, 6),
+
+----('Men Casual Hoodie', 64.50, 75, 'Soft and warm hoodie suitable for daily casual wear.', '2026-01-01', 1, 6),
+
+----('Formal White Shirt', 49.99, 90, 'Classic white formal shirt suitable for business meetings.', '2026-01-01', 1, 6),
+
+----('Men Winter Jacket', 180.00, 35, 'Insulated winter jacket providing warmth in cold weather.', '2026-01-01', 1, 6),
+
+----('Chino Pants Regular Fit', 69.99, 55, 'Regular fit chino pants suitable for casual and smart looks.', '2026-01-01', 1, 6),
+
+----('Men Polo Shirt', 39.90, 100, 'Short sleeve polo shirt made from breathable fabric.', '2026-01-01', 1, 6),
+
+----('Classic Leather Belt', 29.99, 150, 'Genuine leather belt with classic buckle design.', '2026-01-01', 1, 6),
+
+----('Men Wool Sweater', 89.00, 45, 'Warm wool sweater designed for winter season.', '2026-01-02', 1, 6),
+
+----('Men Formal Suit Jacket', 320.00, 18, 'Elegant formal suit jacket with modern cut.', '2026-01-02', 1, 6),
+
+----('Casual Zip Sweatshirt', 59.99, 80, 'Zip-up sweatshirt suitable for casual daily use.', '2026-01-02', 1, 6),
+
+----('Men Cargo Pants', 74.50, 65, 'Functional cargo pants with multiple pockets.', '2026-01-02', 1, 6),
+
+----('Men Long Sleeve T-Shirt', 34.99, 110, 'Long sleeve t-shirt ideal for transitional seasons.', '2026-01-02', 1, 6),
+
+----('Men Linen Shirt', 69.00, 50, 'Breathable linen shirt perfect for summer wear.', '2026-01-02', 1, 6),
+
+----('Men Sports Shorts', 29.90, 140, 'Lightweight sports shorts designed for active movement.', '2026-01-02', 1, 6),
+
+----('Men Classic Blazer', 210.00, 25, 'Classic blazer suitable for both formal and smart casual outfits.', '2026-01-02', 1, 6),
+
+----('Men Knit Cardigan', 95.00, 40, 'Soft knit cardigan ideal for layering.', '2026-01-02', 1, 6),
+
+----('Men Pajama Set', 49.50, 85, 'Comfortable pajama set designed for quality sleep.', '2026-01-02', 1, 6),
+
+----('Men Summer Shorts', 44.99, 95, 'Comfortable summer shorts made from lightweight fabric.', '2026-01-02', 1, 6),
+
+----('Men Rain Coat', 135.00, 30, 'Water-resistant rain coat designed for rainy weather.', '2026-01-02', 1, 6);
+
+-------------------------------------------
+--INSERT INTO Products
+--(ProductName, ProductPrice, ProductStock, ProductDescription, ProductCreatedDate, ProductIsActive, CategoryId)
+--VALUES
+--('Vitamin C Facial Serum', 45.99, 80, 'Brightening facial serum enriched with vitamin C.', '2026-01-01', 1, 15),
+
+--('Hydrating Face Moisturizer', 39.50, 95, 'Daily moisturizer providing long lasting hydration.', '2026-01-01', 1, 15),
+
+--('Organic Aloe Vera Gel', 18.99, 140, 'Pure organic aloe vera gel for skin and hair care.', '2026-01-01', 1, 15),
+
+--('Anti Aging Night Cream', 69.00, 60, 'Advanced night cream formulated to reduce fine lines.', '2026-01-01', 1, 15),
+
+--('Charcoal Detox Face Mask', 29.99, 110, 'Deep cleansing charcoal mask for removing impurities.', '2026-01-01', 1, 15),
+
+--('Herbal Shampoo', 24.50, 130, 'Gentle herbal shampoo suitable for all hair types.', '2026-01-01', 1, 15),
+
+--('Nourishing Hair Conditioner', 26.90, 125, 'Conditioner that strengthens and softens hair.', '2026-01-01', 1, 15),
+
+--('Body Repair Lotion', 22.99, 150, 'Moisturizing body lotion for dry and sensitive skin.', '2026-01-01', 1, 15),
+
+--('Tea Tree Oil Face Cleanser', 34.99, 85, 'Refreshing face cleanser with tea tree oil.', '2026-01-02', 1, 15),
+
+--('Exfoliating Body Scrub', 31.50, 90, 'Gentle exfoliating scrub for smooth skin.', '2026-01-02', 1, 15),
+
+--('Sunscreen SPF 50+', 27.99, 160, 'High protection sunscreen suitable for daily use.', '2026-01-02', 1, 15),
+
+--('Eye Contour Cream', 41.00, 70, 'Soothing eye cream reducing dark circles.', '2026-01-02', 1, 15),
+
+--('Natural Lip Balm', 9.99, 220, 'Moisturizing lip balm made with natural ingredients.', '2026-01-02', 1, 15),
+
+--('Aromatic Body Wash', 19.90, 180, 'Refreshing body wash with aromatic fragrance.', '2026-01-02', 1, 15),
+
+--('Clay Purifying Face Mask', 28.50, 100, 'Purifying clay mask that absorbs excess oil.', '2026-01-02', 1, 15),
+
+--('Hand and Nail Care Cream', 17.99, 160, 'Repairing hand cream for dry hands and nails.', '2026-01-02', 1, 15),
+
+--('Hair Growth Serum', 59.00, 55, 'Strengthening serum designed to support hair growth.', '2026-01-02', 1, 15),
+
+--('Makeup Remover Micellar Water', 21.99, 140, 'Gentle micellar water removing makeup effectively.', '2026-01-02', 1, 15),
+
+--('Relaxing Bath Salts', 15.50, 190, 'Mineral rich bath salts for relaxation and stress relief.', '2026-01-02', 1, 15),
+
+--('Foot Care Repair Cream', 23.99, 90, 'Repairing cream designed for dry and cracked feet.', '2026-01-02', 1, 15);
+
+--INSERT INTO Products
+--(ProductName, ProductPrice, ProductStock, ProductDescription, ProductCreatedDate, ProductIsActive, CategoryId)
+--VALUES
+--('Modern Ceramic Vase', 49.99, 60, 'Minimalist ceramic vase suitable for modern interiors.', '2026-01-01', 1, 13),
+
+--('Decorative Wall Clock', 59.90, 75, 'Silent wall clock with modern decorative design.', '2026-01-01', 1, 13),
+
+--('Abstract Canvas Wall Art', 120.00, 25, 'Abstract canvas artwork for contemporary living spaces.', '2026-01-01', 1, 13),
+
+--('Decorative Throw Pillow', 29.99, 110, 'Soft decorative pillow with elegant fabric texture.', '2026-01-01', 1, 13),
+
+--('LED Ambient Table Lamp', 89.00, 40, 'Warm LED table lamp for ambient lighting.', '2026-01-01', 1, 13),
+
+--('Wooden Picture Frame Set', 34.50, 95, 'Set of wooden frames for photos and artwork.', '2026-01-01', 1, 13),
+
+--('Decorative Glass Bowl', 42.99, 65, 'Handcrafted decorative glass bowl for table styling.', '2026-01-01', 1, 13),
+
+--('Minimalist Wall Shelf', 145.00, 20, 'Floating wall shelf with minimalist wooden design.', '2026-01-01', 1, 13),
+
+--('Scented Decorative Candle', 19.99, 180, 'Aromatic decorative candle for home atmosphere.', '2026-01-01', 1, 13),
+
+--('Artificial Indoor Plant', 54.90, 85, 'Realistic artificial plant for indoor decoration.', '2026-01-01', 1, 13),
+
+--('Decorative Mirror Round', 210.00, 18, 'Round decorative mirror with metal frame.', '2026-01-02', 1, 13),
+
+--('Boho Style Wall Hanging', 69.99, 50, 'Bohemian style wall hanging made of cotton rope.', '2026-01-02', 1, 13),
+
+--('Tabletop Decorative Sculpture', 97.50, 30, 'Modern tabletop sculpture for decorative purposes.', '2026-01-02', 1, 13),
+
+--('Decorative Area Rug', 260.00, 22, 'Soft area rug with decorative pattern.', '2026-01-02', 1, 13),
+
+--('Vintage Style Alarm Clock', 44.99, 70, 'Vintage inspired decorative alarm clock.', '2026-01-02', 1, 13),
+
+--('Wall Mounted Key Holder', 27.99, 120, 'Decorative key holder for wall mounting.', '2026-01-02', 1, 13),
+
+--('Decorative Metal Lantern', 79.00, 45, 'Metal lantern suitable for indoor decoration.', '2026-01-02', 1, 13),
+
+--('Decorative Wooden Tray', 38.50, 90, 'Natural wooden tray for decorative table use.', '2026-01-02', 1, 13),
+
+--('Modern Curtain Set', 199.00, 28, 'Stylish curtain set designed for modern homes.', '2026-01-02', 1, 13),
+
+--('Decorative Table Runner', 24.99, 140, 'Elegant table runner for dining table decoration.', '2026-01-02', 1, 13),
+
+--('Geometric Wall Decor Panel', 135.00, 35, 'Geometric decorative wall panel for modern spaces.', '2026-01-02', 1, 13),
+
+--('Decorative Floor Vase', 175.00, 26, 'Tall floor vase suitable for living room decor.', '2026-01-02', 1, 13),
+
+--('Minimal Desk Clock', 36.90, 80, 'Minimalist desk clock for home or office.', '2026-01-02', 1, 13),
+
+--('Decorative Bookends Set', 58.00, 55, 'Stylish bookends set for shelves and desks.', '2026-01-02', 1, 13),
+
+--('Decorative Wall Stickers', 21.99, 160, 'Easy to apply decorative wall stickers.', '2026-01-02', 1, 13),
+
+--('Luxury Decorative Cushion', 64.99, 45, 'Luxury cushion designed for premium interiors.', '2026-01-02', 1, 13),
+
+--('Decorative Ceiling Pendant', 320.00, 15, 'Modern ceiling pendant light for home decor.', '2026-01-02', 1, 13),
+
+--('Marble Decorative Coaster Set', 52.50, 60, 'Marble coasters set with elegant finish.', '2026-01-02', 1, 13),
+
+--('Decorative Wall Typography Art', 74.99, 50, 'Typography wall art with inspirational quote.', '2026-01-02', 1, 13),
+
+--('Decorative Storage Basket', 47.00, 85, 'Woven storage basket for decorative organization.', '2026-01-02', 1, 13);
+
+--INSERT INTO Products
+--(ProductName, ProductPrice, ProductStock, ProductDescription, ProductCreatedDate, ProductIsActive, CategoryId)
+--VALUES
+--('Premium Arabica Coffee Beans 1kg', 24.99, 120, 'Freshly roasted premium arabica coffee beans.', '2026-01-01', 1, 23),
+
+--('Organic Green Tea Pack', 14.50, 180, 'Organic green tea leaves with natural aroma.', '2026-01-01', 1, 23),
+
+--('Dark Chocolate Bar 70%', 6.99, 300, 'Rich dark chocolate made with 70 percent cocoa.', '2026-01-01', 1, 23),
+
+--('Natural Honey Glass Jar', 18.90, 150, 'Pure natural honey collected from wildflowers.', '2026-01-01', 1, 23),
+
+--('Gourmet Olive Oil Extra Virgin', 29.99, 85, 'Cold pressed extra virgin olive oil.', '2026-01-01', 1, 23),
+
+--('Roasted Mixed Nuts Pack', 12.50, 220, 'Carefully roasted mixed nuts with no additives.', '2026-01-01', 1, 23),
+
+--('Instant Espresso Capsules', 21.00, 140, 'Compatible espresso capsules with intense flavor.', '2026-01-01', 1, 23),
+
+--('Organic Herbal Tea Collection', 19.99, 160, 'Selection of organic herbal teas.', '2026-01-01', 1, 23),
+
+--('Sparkling Mineral Water 6 Pack', 8.50, 200, 'Refreshing natural sparkling mineral water.', '2026-01-01', 1, 23),
+
+--('Premium Black Tea Leaves', 13.99, 170, 'Strong and aromatic premium black tea leaves.', '2026-01-01', 1, 23),
+
+--('Granola Breakfast Mix', 11.99, 190, 'Healthy granola mix with oats and dried fruits.', '2026-01-02', 1, 23),
+
+--('Protein Energy Bar', 3.49, 420, 'High protein energy bar for active lifestyle.', '2026-01-02', 1, 23),
+
+--('Organic Almond Milk', 4.99, 260, 'Dairy free organic almond milk.', '2026-01-02', 1, 23),
+
+--('Cold Brew Coffee Bottle', 5.99, 240, 'Smooth cold brew coffee ready to drink.', '2026-01-02', 1, 23),
+
+--('Premium Matcha Powder', 27.00, 90, 'High quality matcha powder from Japan.', '2026-01-02', 1, 23),
+
+--('Natural Fruit Jam Set', 16.50, 130, 'Assorted fruit jams made from real fruits.', '2026-01-02', 1, 23),
+
+--('Whole Grain Pasta Pack', 6.25, 310, 'Healthy whole grain pasta made from durum wheat.', '2026-01-02', 1, 23),
+
+--('Gourmet Sea Salt Grinder', 9.99, 180, 'Natural sea salt with adjustable grinder.', '2026-01-02', 1, 23),
+
+--('Organic Peanut Butter', 7.99, 210, 'Creamy organic peanut butter with no sugar added.', '2026-01-02', 1, 23),
+
+--('Natural Coconut Water', 4.50, 260, 'Pure coconut water with no preservatives.', '2026-01-02', 1, 23),
+
+--('Premium Breakfast Honey Oats', 10.99, 170, 'Oat cereal blended with natural honey.', '2026-01-02', 1, 23),
+
+--('Gourmet Hot Chocolate Mix', 8.75, 190, 'Rich hot chocolate mix with cocoa powder.', '2026-01-02', 1, 23),
+
+--('Artisan Biscuit Assortment', 14.99, 140, 'Handcrafted biscuit assortment with butter flavor.', '2026-01-02', 1, 23),
+
+--('Natural Dried Fruit Mix', 9.50, 200, 'Dried fruits with no added sugar.', '2026-01-02', 1, 23),
+
+--('Organic Breakfast Smoothie Powder', 18.99, 120, 'Plant based smoothie powder for breakfast.', '2026-01-02', 1, 23),
+
+--('Gourmet Coffee Syrup Vanilla', 12.99, 160, 'Vanilla flavored syrup for coffee drinks.', '2026-01-02', 1, 23),
+
+--('Premium Herbal Infusion Tea', 15.50, 150, 'Relaxing herbal infusion tea blend.', '2026-01-02', 1, 23),
+
+--('Natural Energy Drink', 3.99, 300, 'Energy drink made with natural ingredients.', '2026-01-02', 1, 23),
+
+--('Organic Tomato Sauce Jar', 6.75, 210, 'Organic tomato sauce made from ripe tomatoes.', '2026-01-02', 1, 23),
+
+('Gourmet Breakfast Pancake Mix', 11.25, 160, 'Easy to prepare gourmet pancake mix.', '2026-01-02', 1, 23);
