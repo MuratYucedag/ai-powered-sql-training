@@ -1,0 +1,202 @@
+INSERT INTO Customers 
+(CustomerName, CustomerSurname, CustomerEmail, CustomerDistrict, CustomerCity, CustomerCountry, CustomerGender)
+VALUES
+('Ahmet','Yılmaz','ahmet.yilmaz@gmail.com','Kadıköy','İstanbul','Turkey','Male'),
+
+('Ayşe','Demir','ayse.demir@gmail.com','Çankaya','Ankara','Turkey','Female'),
+
+('Mehmet','Kaya','mehmet.kaya@gmail.com','Konak','İzmir','Turkey','Male'),
+
+('Elif','Şahin','elif.sahin@gmail.com','Nilüfer','Bursa','Turkey','Female'),
+
+('Murat','Çelik','murat.celik@gmail.com','Tepebaşı','Eskişehir','Turkey','Male'),
+
+('Zeynep','Aydın','zeynep.aydin@gmail.com','Atakum','Samsun','Turkey','Female'),
+
+('Emre','Koç','emre.koc@gmail.com','Meram','Konya','Turkey','Male'),
+
+('Fatma','Öztürk','fatma.ozturk@gmail.com','Ortahisar','Trabzon','Turkey','Female'),
+
+('Can','Arslan','can.arslan@gmail.com','Seyhan','Adana','Turkey','Male'),
+
+('Selin','Yavuz','selin.yavuz@gmail.com','Muratpaşa','Antalya','Turkey','Female'),
+
+('Burak','Polat','burak.polat@gmail.com','Odunpazarı','Eskişehir','Turkey','Male'),
+
+('Derya','Güneş','derya.gunes@gmail.com','Karşıyaka','İzmir','Turkey','Female'),
+
+('Oğuz','Erdoğan','oguz.erdogan@gmail.com','Melikgazi','Kayseri','Turkey','Male'),
+
+('Ece','Kurt','ece.kurt@gmail.com','İlkadım','Samsun','Turkey','Female'),
+
+('Hakan','Bozkurt','hakan.bozkurt@gmail.com','Selçuklu','Konya','Turkey','Male'),
+
+('Büşra','Çetin','busra.cetin@gmail.com','Yıldırım','Bursa','Turkey','Female'),
+
+('Serkan','Doğan','serkan.dogan@gmail.com','Keçiören','Ankara','Turkey','Male'),
+
+('Merve','Aksoy','merve.aksoy@gmail.com','Üsküdar','İstanbul','Turkey','Female'),
+
+('Onur','Taş','onur.tas@gmail.com','Bayraklı','İzmir','Turkey','Male'),
+
+('Pınar','Kılıç','pinar.kilic@gmail.com','Şehitkamil','Gaziantep','Turkey','Female');
+
+
+--------------------------------------------------------------------------
+
+INSERT INTO Customers
+(CustomerName, CustomerSurname, CustomerEmail, CustomerDistrict, CustomerCity, CustomerCountry, CustomerGender)
+VALUES
+-- İstanbul
+('Ahmet','Kara','ahmet.kara1@gmail.com','Kadıköy','İstanbul','Türkiye','Male'),
+('Elif','Deniz','elif.deniz1@gmail.com','Üsküdar','İstanbul','Türkiye','Female'),
+('Burak','Yalçın','burak.yalcin1@gmail.com','Bakırköy','İstanbul','Türkiye','Male'),
+('Zeynep','Aslan','zeynep.aslan1@gmail.com','Beşiktaş','İstanbul','Türkiye','Female'),
+('Serkan','Turan','serkan.turan1@gmail.com','Pendik','İstanbul','Türkiye','Male'),
+('Melike','Acar','melike.acar1@gmail.com','Ataşehir','İstanbul','Türkiye','Female'),
+
+-- Ankara
+('Mehmet','Özdemir','mehmet.ozdemir1@gmail.com','Çankaya','Ankara','Türkiye','Male'),
+('Seda','Kılıç','seda.kilic1@gmail.com','Keçiören','Ankara','Türkiye','Female'),
+('Emre','Polat','emre.polat1@gmail.com','Yenimahalle','Ankara','Türkiye','Male'),
+('Gizem','Şen','gizem.sen1@gmail.com','Etimesgut','Ankara','Türkiye','Female'),
+('Hakan','Bozkurt','hakan.bozkurt1@gmail.com','Mamak','Ankara','Türkiye','Male'),
+('Buse','Arı','buse.ari1@gmail.com','Sincan','Ankara','Türkiye','Female'),
+
+-- İzmir
+('Can','Eroğlu','can.eroglu1@gmail.com','Karşıyaka','İzmir','Türkiye','Male'),
+('Derya','Çoban','derya.coban1@gmail.com','Bornova','İzmir','Türkiye','Female'),
+('Oğuz','Kurt','oguz.kurt1@gmail.com','Konak','İzmir','Türkiye','Male'),
+('Ece','Uysal','ece.uysal1@gmail.com','Buca','İzmir','Türkiye','Female'),
+('Tolga','Güler','tolga.guler1@gmail.com','Bayraklı','İzmir','Türkiye','Male'),
+('İrem','Sağlam','irem.saglam1@gmail.com','Balçova','İzmir','Türkiye','Female'),
+
+-- Bursa
+('Murat','Aydın','murat.aydin1@gmail.com','Nilüfer','Bursa','Türkiye','Male'),
+('Pınar','Koç','pinar.koc1@gmail.com','Osmangazi','Bursa','Türkiye','Female'),
+('Levent','Şimşek','levent.simsek1@gmail.com','Yıldırım','Bursa','Türkiye','Male'),
+('Cansu','Yılmaz','cansu.yilmaz1@gmail.com','Mudanya','Bursa','Türkiye','Female'),
+('Serhat','Demir','serhat.demir1@gmail.com','İnegöl','Bursa','Türkiye','Male'),
+('Naz','Topçu','naz.topcu1@gmail.com','Gemlik','Bursa','Türkiye','Female'),
+
+-- Antalya
+('Onur','Akın','onur.akin1@gmail.com','Muratpaşa','Antalya','Türkiye','Male'),
+('Beyza','Keskin','beyza.keskin1@gmail.com','Konyaaltı','Antalya','Türkiye','Female'),
+('Umut','Er','umut.er1@gmail.com','Kepez','Antalya','Türkiye','Male'),
+('Selin','Doğru','selin.dogru1@gmail.com','Alanya','Antalya','Türkiye','Female'),
+('Kaan','Yıldırım','kaan.yildirim1@gmail.com','Manavgat','Antalya','Türkiye','Male'),
+('Dilan','Özer','dilan.ozer1@gmail.com','Serik','Antalya','Türkiye','Female');
+
+----------------------------------------------------------------------------------------------
+
+  INSERT INTO Customers
+(CustomerName, CustomerSurname, CustomerEmail, CustomerDistrict, CustomerCity, CustomerCountry, CustomerGender)
+VALUES
+-- Berlin
+('Lukas','Schneider','lukas.schneider@gmail.com','Mitte','Berlin','Germany','Male'),
+('Anna','Müller','anna.mueller@gmail.com','Charlottenburg','Berlin','Germany','Female'),
+('Jonas','Weber','jonas.weber@gmail.com','Kreuzberg','Berlin','Germany','Male'),
+('Laura','Fischer','laura.fischer@gmail.com','Prenzlauer Berg','Berlin','Germany','Female'),
+('Tobias','Hoffmann','tobias.hoffmann@gmail.com','Neukölln','Berlin','Germany','Male'),
+('Sophie','Klein','sophie.klein@gmail.com','Friedrichshain','Berlin','Germany','Female'),
+('Daniel','Wolf','daniel.wolf@gmail.com','Spandau','Berlin','Germany','Male'),
+
+-- Munich
+('Max','Becker','max.becker@gmail.com','Schwabing','Munich','Germany','Male'),
+('Julia','Wagner','julia.wagner@gmail.com','Maxvorstadt','Munich','Germany','Female'),
+('Felix','Schulz','felix.schulz@gmail.com','Sendling','Munich','Germany','Male'),
+('Hannah','Koch','hannah.koch@gmail.com','Giesing','Munich','Germany','Female'),
+('Sebastian','Richter','sebastian.richter@gmail.com','Pasing','Munich','Germany','Male'),
+('Lea','Neumann','lea.neumann@gmail.com','Bogenhausen','Munich','Germany','Female'),
+
+-- Cologne
+('Jan','Zimmermann','jan.zimmermann@gmail.com','Ehrenfeld','Cologne','Germany','Male'),
+('Nina','Braun','nina.braun@gmail.com','Lindenthal','Cologne','Germany','Female'),
+('Patrick','Krüger','patrick.krueger@gmail.com','Deutz','Cologne','Germany','Male'),
+('Clara','Hartmann','clara.hartmann@gmail.com','Nippes','Cologne','Germany','Female'),
+('Leon','Maier','leon.maier@gmail.com','Porz','Cologne','Germany','Male'),
+('Mara','Scholz','mara.scholz@gmail.com','Rodenkirchen','Cologne','Germany','Female');
+
+
+-------------------------------------------------------------
+INSERT INTO Customers
+(CustomerName, CustomerSurname, CustomerEmail, CustomerDistrict, CustomerCity, CustomerCountry, CustomerGender)
+VALUES
+-- Rome
+('Marco','Rossi','marco.rossi@gmail.com','Trastevere','Rome','Italy','Male'),
+('Giulia','Bianchi','giulia.bianchi@gmail.com','Prati','Rome','Italy','Female'),
+('Lorenzo','Conti','lorenzo.conti@gmail.com','Testaccio','Rome','Italy','Male'),
+('Francesca','Romano','francesca.romano@gmail.com','Monti','Rome','Italy','Female'),
+('Alessandro','Greco','alessandro.greco@gmail.com','Aventine','Rome','Italy','Male'),
+('Chiara','De Luca','chiara.deluca@gmail.com','San Giovanni','Rome','Italy','Female'),
+('Matteo','Ricci','matteo.ricci@gmail.com','Parioli','Rome','Italy','Male'),
+('Elena','Moretti','elena.moretti@gmail.com','Ostiense','Rome','Italy','Female'),
+
+-- Milan
+('Andrea','Ferrari','andrea.ferrari@gmail.com','Navigli','Milan','Italy','Male'),
+('Valentina','Gallo','valentina.gallo@gmail.com','Brera','Milan','Italy','Female'),
+('Stefano','Marino','stefano.marino@gmail.com','Isola','Milan','Italy','Male'),
+('Martina','Colombo','martina.colombo@gmail.com','Porta Romana','Milan','Italy','Female'),
+('Davide','Rinaldi','davide.rinaldi@gmail.com','Lambrate','Milan','Italy','Male'),
+('Federica','Costa','federica.costa@gmail.com','CityLife','Milan','Italy','Female'),
+('Simone','Barbieri','simone.barbieri@gmail.com','Bicocca','Milan','Italy','Male'),
+('Laura','Fontana','laura.fontana@gmail.com','Porta Nuova','Milan','Italy','Female'),
+
+-- Bergamo
+('Paolo','Sala','paolo.sala@gmail.com','Citta Alta','Bergamo','Italy','Male'),
+('Sara','Villa','sara.villa@gmail.com','Citta Bassa','Bergamo','Italy','Female'),
+('Riccardo','Seri','riccardo.seri@gmail.com','Borgo Palazzo','Bergamo','Italy','Male'),
+('Ilaria','Fumagalli','ilaria.fumagalli@gmail.com','Longuelo','Bergamo','Italy','Female'),
+('Enrico','Testa','enrico.testa@gmail.com','Redona','Bergamo','Italy','Male'),
+('Noemi','Locatelli','noemi.locatelli@gmail.com','Valtesse','Bergamo','Italy','Female'),
+('Giorgio','Pellegrini','giorgio.pellegrini@gmail.com','Celadina','Bergamo','Italy','Male'),
+('Alessia','Bernardi','alessia.bernardi@gmail.com','Malpensata','Bergamo','Italy','Female'),
+
+-- Naples
+('Antonio','Esposito','antonio.esposito@gmail.com','Vomero','Naples','Italy','Male'),
+('Maria','Russo','maria.russo@gmail.com','Chiaia','Naples','Italy','Female'),
+('Salvatore','De Santis','salvatore.desantis@gmail.com','Posillipo','Naples','Italy','Male'),
+('Giovanna','Mancini','giovanna.mancini@gmail.com','Fuorigrotta','Naples','Italy','Female'),
+('Vincenzo','Lombardi','vincenzo.lombardi@gmail.com','San Carlo','Naples','Italy','Male'),
+('Caterina','Palmieri','caterina.palmieri@gmail.com','Arenella','Naples','Italy','Female'),
+('Luigi','Caruso','luigi.caruso@gmail.com','Pianura','Naples','Italy','Male'),
+('Daniela','Vitale','daniela.vitale@gmail.com','Bagnoli','Naples','Italy','Female'),
+
+-- Turin
+('Federico','Giordano','federico.giordano@gmail.com','Centro','Turin','Italy','Male'),
+('Silvia','Pellegrino','silvia.pellegrino@gmail.com','San Salvario','Turin','Italy','Female'),
+('Nicolo','Martini','nicolo.martini@gmail.com','Crocetta','Turin','Italy','Male'),
+('Beatrice','Longo','beatrice.longo@gmail.com','Aurora','Turin','Italy','Female'),
+('Emanuele','Ferri','emanuele.ferri@gmail.com','Vanchiglia','Turin','Italy','Male'),
+('Roberta','Parisi','roberta.parisi@gmail.com','Cit Turin','Turin','Italy','Female'),
+('Daniele','Ruggiero','daniele.ruggiero@gmail.com','Lingotto','Turin','Italy','Male'),
+('Michela','Orlando','michela.orlando@gmail.com','Pozzo Strada','Turin','Italy','Female');
+
+
+---------------------------------------------------------------------------------------
+
+  INSERT INTO Customers
+(CustomerName, CustomerSurname, CustomerEmail, CustomerDistrict, CustomerCity, CustomerCountry, CustomerGender)
+VALUES
+-- Paris
+('Jean','Dupont','jean.dupont@gmail.com','Montmartre','Paris','France','Male'),
+('Camille','Martin','camille.martin@gmail.com','Le Marais','Paris','France','Female'),
+('Pierre','Lefevre','pierre.lefevre@gmail.com','Latin Quarter','Paris','France','Male'),
+('Sophie','Bernard','sophie.bernard@gmail.com','Saint-Germain','Paris','France','Female'),
+('Julien','Moreau','julien.moreau@gmail.com','Bastille','Paris','France','Male'),
+
+-- Lyon
+('Antoine','Rousseau','antoine.rousseau@gmail.com','Presquile','Lyon','France','Male'),
+('Claire','Dubois','claire.dubois@gmail.com','Croix-Rousse','Lyon','France','Female'),
+('Mathieu','Garnier','mathieu.garnier@gmail.com','Part-Dieu','Lyon','France','Male'),
+('Elise','Faure','elise.faure@gmail.com','Bellecour','Lyon','France','Female'),
+('Thomas','Perrot','thomas.perrot@gmail.com','Confluence','Lyon','France','Male'),
+
+-- Strasbourg
+('Lucas','Schmitt','lucas.schmitt@gmail.com','Petite France','Strasbourg','France','Male'),
+('Amelie','Keller','amelie.keller@gmail.com','Neudorf','Strasbourg','France','Female'),
+('Hugo','Meyer','hugo.meyer@gmail.com','Krutenau','Strasbourg','France','Male'),
+('Manon','Weiss','manon.weiss@gmail.com','Robertsau','Strasbourg','France','Female'),
+('Nicolas','Fischer','nicolas.fischer@gmail.com','Esplanade','Strasbourg','France','Male');
+
+  
