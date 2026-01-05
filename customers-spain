@@ -1,0 +1,110 @@
+INSERT INTO Customers 
+(CustomerName, CustomerSurname, CustomerEmail, CustomerDistrict, CustomerCity, CustomerCountry, CustomerGender, CustomerBalance)
+VALUES
+-- MADRID (Centro, Salamanca)
+('Carlos','Garcia','carlos.garcia1@mail.com','Centro','Madrid','Spain','Male',12000),
+('Maria','Lopez','maria.lopez1@mail.com','Centro','Madrid','Spain','Female',18500),
+('Javier','Martinez','javier.martinez1@mail.com','Centro','Madrid','Spain','Male',24000),
+('Lucia','Fernandez','lucia.fernandez1@mail.com','Centro','Madrid','Spain','Female',31000),
+('Diego','Perez','diego.perez1@mail.com','Centro','Madrid','Spain','Male',9000),
+('Ana','Gomez','ana.gomez1@mail.com','Salamanca','Madrid','Spain','Female',15000),
+('Pablo','Ruiz','pablo.ruiz1@mail.com','Salamanca','Madrid','Spain','Male',27000),
+('Elena','Diaz','elena.diaz1@mail.com','Salamanca','Madrid','Spain','Female',34000),
+('Miguel','Sanchez','miguel.sanchez1@mail.com','Salamanca','Madrid','Spain','Male',42000),
+('Isabel','Moreno','isabel.moreno1@mail.com','Salamanca','Madrid','Spain','Female',50000),
+('Alberto','Navarro','alberto.navarro@mail.com','Centro','Madrid','Spain','Male',22000),
+('Carmen','Torres','carmen.torres@mail.com','Centro','Madrid','Spain','Female',16000),
+('Raul','Vega','raul.vega@mail.com','Salamanca','Madrid','Spain','Male',29000),
+('Sofia','Molina','sofia.molina@mail.com','Salamanca','Madrid','Spain','Female',36000),
+('Fernando','Castro','fernando.castro@mail.com','Centro','Madrid','Spain','Male',41000),
+
+-- BARCELONA (Eixample, Gracia)
+('Luis','Ortega','luis.ortega@mail.com','Eixample','Barcelona','Spain','Male',18000),
+('Marta','Ramos','marta.ramos@mail.com','Eixample','Barcelona','Spain','Female',25000),
+('Victor','Gil','victor.gil@mail.com','Eixample','Barcelona','Spain','Male',32000),
+('Paula','Serrano','paula.serrano@mail.com','Eixample','Barcelona','Spain','Female',39000),
+('Adrian','Blanco','adrian.blanco@mail.com','Eixample','Barcelona','Spain','Male',46000),
+('Clara','Hernandez','clara.hernandez@mail.com','Gracia','Barcelona','Spain','Female',14000),
+('Ivan','Iglesias','ivan.iglesias@mail.com','Gracia','Barcelona','Spain','Male',21000),
+('Natalia','Cruz','natalia.cruz@mail.com','Gracia','Barcelona','Spain','Female',28000),
+('Sergio','Flores','sergio.flores@mail.com','Gracia','Barcelona','Spain','Male',35000),
+('Laura','Reyes','laura.reyes@mail.com','Gracia','Barcelona','Spain','Female',43000),
+('Oscar','Medina','oscar.medina@mail.com','Eixample','Barcelona','Spain','Male',26000),
+('Patricia','Vidal','patricia.vidal@mail.com','Eixample','Barcelona','Spain','Female',33000),
+('Ruben','Campos','ruben.campos@mail.com','Gracia','Barcelona','Spain','Male',38000),
+('Silvia','Fuentes','silvia.fuentes@mail.com','Gracia','Barcelona','Spain','Female',47000),
+('Hector','Roman','hector.roman@mail.com','Eixample','Barcelona','Spain','Male',5000 * 10),
+
+-- VALENCIA (Ciutat Vella, Ruzafa)
+('Jorge','Leon','jorge.leon@mail.com','Ciutat Vella','Valencia','Spain','Male',17000),
+('Beatriz','Marin','beatriz.marin@mail.com','Ciutat Vella','Valencia','Spain','Female',24000),
+('Andres','Pascual','andres.pascual@mail.com','Ciutat Vella','Valencia','Spain','Male',31000),
+('Nuria','Soto','nuria.soto@mail.com','Ciutat Vella','Valencia','Spain','Female',38000),
+('Manuel','Cano','manuel.cano@mail.com','Ciutat Vella','Valencia','Spain','Male',45000),
+('Rocio','Calvo','rocio.calvo@mail.com','Ruzafa','Valencia','Spain','Female',13000),
+('Eduardo','Benitez','eduardo.benitez@mail.com','Ruzafa','Valencia','Spain','Male',20000),
+('Teresa','Paredes','teresa.paredes@mail.com','Ruzafa','Valencia','Spain','Female',27000),
+('Guillermo','Acosta','guillermo.acosta@mail.com','Ruzafa','Valencia','Spain','Male',34000),
+('Monica','Lorenzo','monica.lorenzo@mail.com','Ruzafa','Valencia','Spain','Female',42000);
+
+
+INSERT INTO Customers
+(CustomerName, CustomerSurname, CustomerEmail, CustomerDistrict, CustomerCity, CustomerCountry, CustomerGender, CustomerBalance)
+VALUES
+-- SEVILLE (Triana, Nervion) -> 20 KİŞİ
+('Antonio','Herrera','antonio.herrera@mail.com','Triana','Seville','Spain','Male',12000),
+('Rosa','Campos','rosa.campos@mail.com','Triana','Seville','Spain','Female',18000),
+('Francisco','Mendez','francisco.mendez@mail.com','Triana','Seville','Spain','Male',24000),
+('Dolores','Peña','dolores.pena@mail.com','Triana','Seville','Spain','Female',30000),
+('Jose','Cabrera','jose.cabrera@mail.com','Triana','Seville','Spain','Male',36000),
+('Celia','Nieto','celia.nieto@mail.com','Triana','Seville','Spain','Female',42000),
+('Marcos','Rojas','marcos.rojas@mail.com','Triana','Seville','Spain','Male',48000),
+('Ines','Arias','ines.arias@mail.com','Triana','Seville','Spain','Female',15000),
+('Pedro','Santos','pedro.santos@mail.com','Nervion','Seville','Spain','Male',21000),
+('Alba','Dominguez','alba.dominguez@mail.com','Nervion','Seville','Spain','Female',27000),
+('Julian','Vargas','julian.vargas@mail.com','Nervion','Seville','Spain','Male',33000),
+('Noelia','Cortes','noelia.cortes@mail.com','Nervion','Seville','Spain','Female',39000),
+('Ricardo','Lozano','ricardo.lozano@mail.com','Nervion','Seville','Spain','Male',45000),
+('Sara','Prieto','sara.prieto@mail.com','Nervion','Seville','Spain','Female',50000),
+('Daniel','Esteban','daniel.esteban@mail.com','Triana','Seville','Spain','Male',26000),
+('Eva','Redondo','eva.redondo@mail.com','Triana','Seville','Spain','Female',32000),
+('Victor','Gallego','victor.gallego@mail.com','Nervion','Seville','Spain','Male',38000),
+('Lorena','Ibañez','lorena.ibanez@mail.com','Nervion','Seville','Spain','Female',44000),
+('Tomas','Sola','tomas.sola@mail.com','Triana','Seville','Spain','Male',19000),
+('Miriam','Ferrer','miriam.ferrer@mail.com','Nervion','Seville','Spain','Female',41000),
+
+-- MADRID (Centro) -> 10 KİŞİ
+('Ignacio','Bravo','ignacio.bravo@mail.com','Centro','Madrid','Spain','Male',22000),
+('Paola','Luna','paola.luna@mail.com','Centro','Madrid','Spain','Female',28000),
+('Hugo','Marquez','hugo.marquez@mail.com','Centro','Madrid','Spain','Male',34000),
+('Cristina','Rico','cristina.rico@mail.com','Centro','Madrid','Spain','Female',40000),
+('Enrique','Padilla','enrique.padilla@mail.com','Centro','Madrid','Spain','Male',46000),
+('Laura','Silva','laura.silva@mail.com','Centro','Madrid','Spain','Female',15000),
+('Santiago','Reina','santiago.reina@mail.com','Centro','Madrid','Spain','Male',21000),
+('Veronica','Cuevas','veronica.cuevas@mail.com','Centro','Madrid','Spain','Female',27000),
+('Mario','Delgado','mario.delgado@mail.com','Centro','Madrid','Spain','Male',33000),
+('Alicia','Otero','alicia.otero@mail.com','Centro','Madrid','Spain','Female',39000),
+
+-- BARCELONA (Gracia) -> 10 KİŞİ
+('Alex','Pujol','alex.pujol@mail.com','Gracia','Barcelona','Spain','Male',17000),
+('Marina','Costa','marina.costa@mail.com','Gracia','Barcelona','Spain','Female',23000),
+('Roger','Serra','roger.serra@mail.com','Gracia','Barcelona','Spain','Male',29000),
+('Laia','Vives','laia.vives@mail.com','Gracia','Barcelona','Spain','Female',35000),
+('Pol','Casals','pol.casals@mail.com','Gracia','Barcelona','Spain','Male',41000),
+('Aina','Fabra','aina.fabra@mail.com','Gracia','Barcelona','Spain','Female',47000),
+('Joan','Miralles','joan.miralles@mail.com','Gracia','Barcelona','Spain','Male',20000),
+('Nerea','Bosch','nerea.bosch@mail.com','Gracia','Barcelona','Spain','Female',26000),
+('Marc','Puig','marc.puig@mail.com','Gracia','Barcelona','Spain','Male',32000),
+('Claudia','Riera','claudia.riera@mail.com','Gracia','Barcelona','Spain','Female',38000),
+
+-- VALENCIA (Ruzafa) -> 10 KİŞİ
+('Vicente','Beltran','vicente.beltran@mail.com','Ruzafa','Valencia','Spain','Male',16000),
+('Amparo','Tomas','amparo.tomas@mail.com','Ruzafa','Valencia','Spain','Female',22000),
+('Salvador','Peiro','salvador.peiro@mail.com','Ruzafa','Valencia','Spain','Male',28000),
+('Clara','Benlloch','clara.benlloch@mail.com','Ruzafa','Valencia','Spain','Female',34000),
+('Rafael','Palacios','rafael.palacios@mail.com','Ruzafa','Valencia','Spain','Male',40000),
+('Olga','Marti','olga.marti@mail.com','Ruzafa','Valencia','Spain','Female',46000),
+('Ivan','Alonso','ivan.alonso@mail.com','Ruzafa','Valencia','Spain','Male',19000),
+('Neus','Monfort','neus.monfort@mail.com','Ruzafa','Valencia','Spain','Female',25000),
+('Pau','Ros','pau.ros@mail.com','Ruzafa','Valencia','Spain','Male',31000),
+('Esther','Garrido','esther.garrido@mail.com','Ruzafa','Valencia','Spain','Female',37000);
