@@ -1,0 +1,15 @@
+INSERT INTO Categories (CategoryName) VALUES ('Gıda & Gurme');
+INSERT INTO Categories (CategoryName) VALUES ('İçecekler');
+INSERT INTO Categories (CategoryName) VALUES ('Teknoloji & Elektronik');
+INSERT INTO Categories (CategoryName) VALUES ('Moda & Giyim');
+INSERT INTO Categories (CategoryName) VALUES ('Ev & Dekorasyon');
+INSERT INTO Categories (CategoryName) VALUES ('Kozmetik & Kişisel Bakım');
+INSERT INTO Categories (CategoryName) VALUES ('Otomotiv & Aksesuar');
+INSERT INTO Categories (CategoryName) VALUES ('Spor & Outdoor');
+INSERT INTO Categories (CategoryName) VALUES ('Evcil Hayvan Ürünleri');
+INSERT INTO Categories (CategoryName) VALUES ('Kahve & Pastane Ürünleri');
+INSERT INTO Categories (CategoryName) VALUES ('Kırtasiye & Ofis Ürünleri');
+INSERT INTO Categories (CategoryName) VALUES ('Oyuncak & Hobi');
+INSERT INTO Categories (CategoryName) VALUES ('Bahçe & Yapı Ürünleri');
+INSERT INTO Categories (CategoryName) VALUES ('Sağlık & Medikal Ürünler');
+INSERT INTO Categories (CategoryName) VALUES ('Aksesuar');
